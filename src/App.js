@@ -1,14 +1,15 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import AllProducts from './Components/AllProducts/AllProducts';
 import Menubar from './Components/Menubar/Menubar';
-import Test from './Components/Test/Test';
+
 
 function App() {
 
   return (
     <div className="App">
       <Menubar></Menubar>
-
+      <AllProducts></AllProducts>
     </div>
   );
 }
