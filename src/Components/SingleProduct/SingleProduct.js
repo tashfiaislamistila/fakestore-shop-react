@@ -6,7 +6,7 @@ const SingleProduct = (props) => {
     // console.log(props.product);
     const { setCartCount } = props;
     return (
-        <div className='col-md-4'>
+        <div className='col-md-4 '>
             <div className="card p-3 border">
                 <img className='w-50 m-auto' src={props.product.image} alt="" />
                 <h1>{props.product.title.slice(0, 10)}</h1>
